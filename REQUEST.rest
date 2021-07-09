@@ -1,0 +1,13 @@
+GET https://WS-buenos-aires.herokuapp.com/inventario-proveedor/ HTTP/1.1
+
+#########
+GET https://WS-buenos-aires.herokuapp.com/inventario/ HTTP/1.1
+
+###########
+POST https://WS-buenos-aires.herokuapp.com/inventario/modificar-cantidad/ HTTP/1.1
+
+{
+    "SKU": "GES12-FM",
+    "CANTIDAD": "12"
+}
+
